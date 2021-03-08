@@ -32,6 +32,9 @@ buildscript {
     dependencies {
         classpath "com.android.tools.build:gradle:${project.ext.gradleVersion}"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${project.ext.kotlinVersion}"
+        implementation 'com.facebook.android:facebook-login:[8.1)'
+
+
     }
 }
 
